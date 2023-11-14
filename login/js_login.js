@@ -7,7 +7,7 @@ function Validacion() {
 	{
 		alert("Entraste como Administrador");
 		formulario=document.getElementById("form1");
-		formulario.setAttribute("ACTION","Guia Minecraft.html");
+		formulario.setAttribute("ACTION","index.html");
 		document.form1.submit();
 	}
 	else if (usuario=="user" && contraseña=="user1234")
