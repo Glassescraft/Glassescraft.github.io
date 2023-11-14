@@ -14,7 +14,7 @@ function Validacion() {
 	{
 		alert("Ingresaste como Usuario")
 		formulario=document.getElementById("form1");
-		formulario.setAttribute("ACTION","Guia Minecraft.html");
+		formulario.setAttribute("ACTION","index.html");
 		document.form1.submit();
 	}
 	else
