@@ -10,7 +10,7 @@ function Validacion() {
 		formulario.setAttribute("ACTION","index.html");
 		document.form1.submit();
 	}
-	else if (usuario=="user" && contraseña=="user1234")
+	else if (usuario!="" && contraseña!="")
 	{
 		alert("Ingresaste como Usuario")
 		formulario=document.getElementById("form1");
