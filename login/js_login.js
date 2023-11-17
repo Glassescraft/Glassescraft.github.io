@@ -17,8 +17,5 @@ function Validacion() {
 		formulario.setAttribute("ACTION","index.html");
 		document.form1.submit();
 	}
-	else
-	{
-		alert("Intente Nuevamente");
-	}
+	
 }
